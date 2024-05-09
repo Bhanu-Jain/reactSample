@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parent_div{
+
+    display: flex;
+
+}
+
+.child_div{
+
+    flex: 1;
+    /* border: 1px solid black; */
+    height: 20rem;
+    margin-top: 150px;
+}
+
+.child_div_form{
+
+    flex: 2;
+    border: 1px solid blue;
+    margin-top: 150px;
+}
+
+.form_body{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.form_body span{
+
+    flex: 1;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+}
+.form_body input{
+
+    flex: 1;
+    width: 20rem;
+    align-self: center;
+    text-align: center;
+    margin: 10px;
+}
+.form_body button{
+
+    flex: 1;
+    width: 20rem;
+    align-self: center;
+    text-align: center;
+    margin: 10px;
+}

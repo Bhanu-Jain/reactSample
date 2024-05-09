@@ -1,0 +1,44 @@
+.parent_div_list{
+
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    /* border: 1px solid blueviolet; */
+    width: auto;
+    /* border-bottom: 1px solid gray; */
+    /* border-width: 80%; */
+    /* margin: 20px; */
+}
+
+.child_div_btn{
+
+    flex: 1;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.child_div_text{
+
+    flex: 10;
+    text-align: start;
+}
+
+.list-btn{
+
+    background-color: floralwhite;
+    height: 1.2rem;
+    width: 1.5rem;
+    border-radius: 20px;
+    
+}
+
+.list-btn:hover{
+
+    background-color: red;
+}
+
+hr{
+    background-color: gray;
+    color: gray;
+    /* width: 80%; */
+}
